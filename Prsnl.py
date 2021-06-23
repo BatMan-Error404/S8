@@ -85,7 +85,7 @@ def reg():
     print ''
     time.sleep(3)
     try:
-    	to = open('/sdcard/Android/data/.Termux.txt', 'r').read()
+    	to = open('/sdcard/Android/.T.txt', 'r').read()
     except (KeyError, IOError):
         reg2()
 
@@ -131,7 +131,7 @@ def reg2():
     id = uuid.uuid4().hex[:50]
     print ' Your id: ' + id
     print ''
-    sav = open('/sdcard/Android/data/.Termux.txt', 'r').read()
+    sav = open('/sdcard/Android/.T.txt', 'r').read()
     sav.write(id)
     sav.close()
     raw_input(' Press Enter And Go To Whatsapp ')
