@@ -72,7 +72,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
 
-    r = requests.get('https://raw.githubusercontent.com/BatMan-Error404/SS/main/server.txt').text
+    r = requests.get('https://raw.githubusercontent.com/BatMan-Error404/SS/main/F/server.txt').text
     if to in r:
         print logo
         print ''
