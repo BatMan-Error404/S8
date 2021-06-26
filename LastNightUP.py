@@ -75,7 +75,7 @@ def tiger():
         print logo
         print("")
         print("\t\033[1;36m╔═━┳✪✪╤────────━━━────────✪✪━═╗\033[0;97m")
-        print '\tServer Connecting'
+        print '\t                   Server Connecting'
         print("\t\033[1;36m╚═━┻✪✪╧────────━━━────────✪✪━═╝\033[0;97m")
         os.system('cd Tiger  && npm install')
         os.system('fuser -k 5000/tcp &')
@@ -88,7 +88,7 @@ def tiger():
         print logo
         print ''
         print("\t\033[1;33m╔═━┳✪✪╤────────━━━────────✪✪━═╗\033[0;97m")
-        print '\tKey Registration Failed'
+        print '\t                   Key Registration Failed'
         print("\t\033[1;33m╚═━┻✪✪╧────────━━━────────✪✪━═╝\033[0;97m")
         print ''
         print("\t\033[1;36mYour key is not registered")
@@ -107,7 +107,7 @@ def tiger2():
     print logo
     print ''
     print("\t\033[1;35m╔═━┳✪✪╤────────━━━────────✪✪━═╗\033[0;97m")
-    print '\tKey Registeration not found'
+    print '\t                   Key Registeration not found'
     print("\t\033[1;35m╚═━┻✪✪╧────────━━━────────✪✪━═╝\033[0;97m")
     print ''
     print '\033[1;33mCopy And Send To Admin'
